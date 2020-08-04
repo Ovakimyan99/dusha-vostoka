@@ -246,7 +246,7 @@ ob.subModal = function(options){
             destroyed = true;
         },
         setContent(html) {
-            Cmodal.querySelector('[data-content]').innerHTML = html;
+            Cmodal.querySelector('[data-contentSub]').innerHTML = html;
             //динамически изменяем содержимое модального окна (class="event-modal-body"), 
             //если вызвать метод setContent(html) и вместо html вписать свое
         }
@@ -274,6 +274,109 @@ const toHTML = cardsEventsHtml => `
             <div class="menu__item--subblock-arrow-up" data-open="menu" data-btn="card"></div>
         </div>
 
+        <div class="menu__item--subblock">
+            <div class="menu-hat">
+
+                кафе
+                <span>Душа Востока</span>
+                <img data-src="./img/menu/close-img.png" data-close="closeImg" alt="" title="" class="menu__close-img owl-lazy">
+
+            </div>
+
+            <div class="menu__block-with-dishes">
+
+                <h3>Горячие закуски</h3>
+                
+                <ul class="menu__list">
+
+                    <li class="menu__list--item">
+                        <span class="menu__list--item-word">САМСА ОСОБАЯ</span>
+                        <span class="menu__list--item-price">180р</span>
+                        <span class="menu__list--item-gram">150г</span>
+                    </li>
+
+                    <li class="menu__list--item">
+                        <span class="menu__list--item-word">САМСА С БАРАНИНОЙ</span>
+                        <span class="menu__list--item-price">180р</span>
+                        <span class="menu__list--item-gram">150г</span>
+                    </li>
+
+                    <li class="menu__list--item">
+                        <span class="menu__list--item-word">ЖУЛЬЕН С ГРИБАМИ</span>
+                        <span class="menu__list--item-price">200р</span>
+                        <span class="menu__list--item-gram">160г</span>
+                    </li>
+
+                    <li class="menu__list--item">
+                        <span class="menu__list--item-word">ШАУРМА ПО - АРАБСКИ</span>
+                        <span class="menu__list--item-price">250р</span>
+                        <span class="menu__list--item-gram">250г</span>
+                    </li>
+
+                    <li class="menu__list--item">
+                    <span class="menu__list--item-word">КУТАБ С СЫРОМ</span>
+                        <span class="menu__list--item-price">70р</span>
+                        <span class="menu__list--item-gram">180г</span>
+                    </li>
+
+                    <li class="menu__list--item">
+                    <span class="menu__list--item-word">СЫРНЫЕ ШАРИКИ</span>
+                        <span class="menu__list--item-price">240р</span>
+                        <span class="menu__list--item-gram">200г</span>
+                    </li>
+
+                    <li class="menu__list--item">
+                    <span class="menu__list--item-word">КУТАБЫ С ЗЕЛЕНЬЮ</span>
+                        <span class="menu__list--item-price">70р</span>
+                        <span class="menu__list--item-gram">180г</span>
+                    </li>
+
+                    <li class="menu__list--item">
+                    <span class="menu__list--item-word">ПИВНАЯ ТАРЕЛКА</span>
+                        <span class="menu__list--item-price">340р</span>
+                        <span class="menu__list--item-gram">400г</span>
+                    </li>
+
+                    <li class="menu__list--item">
+                        <span class="menu__list--item-word">ГРЕНКИ С ЧЕСНОКОМ</span>
+                        <span class="menu__list--item-price">150р</span>
+                        <span class="menu__list--item-gram">150г</span>
+                    </li>
+
+                    <li class="menu__list--item">
+                        <span class="menu__list--item-word">ПИВНАЯ ЗАКУСКА</span>
+                        <span class="menu__list--item-price">300р</span>
+                        <span class="menu__list--item-gram">250г</span>
+                    </li>
+
+                    <li class="menu__list--item">
+                        <span class="menu__list--item-word">ЧЕБУРЕК С СЫРОМ</span>
+                        <span class="menu__list--item-price">70р</span>
+                        <span class="menu__list--item-gram">150г</span>
+                    </li>
+
+                    <li class="menu__list--item">
+                        <span class="menu__list--item-word">ЧЕБУРЕК С МЯСОМ</span>
+                        <span class="menu__list--item-price">70р</span>
+                        <span class="menu__list--item-gram">150г</span>
+                    </li>
+
+                    <li class="menu__list--item">
+                        <span class="menu__list--item-word">КРЫЛЬЯ КУРИНЫЕ</span>
+                        <span class="menu__list--item-price">220р</span>
+                        <span class="menu__list--item-gram">170г</span>
+                    </li>
+
+                    <li class="menu__list--item">
+                        <span class="menu__list--item-word">КРЕВЕТКИ ТИГРОВЫЕ</span>
+                        <span class="menu__list--item-price">260р</span>
+                        <span class="menu__list--item-gram">120г</span>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
     </div>
 
 </div>
@@ -292,25 +395,8 @@ const cardModalEvent = ob.modal({
     width: '400px'
 }); 
 
-//ловля любого клика и нахождение dataset.btn
-document.addEventListener('click', event => {
-    const Ec = event.target.dataset.open;
-    const id = event.target.dataset.id;
 
-    if (Ec === 'card') { // содержимое модалки
-        event.preventDefault();
-        const cardsEventsHtml = cardsEvents.find( f => f.id === id );
-        cardModalEvent.setContent(
-        `<img src="${cardsEventsHtml.img}" alt="${cardsEventsHtml.alt}" title="${cardsEventsHtml.title}" class="modal-event-img">
-        <p>${cardsEventsHtml.text}</p>
-        `);
-
-        cardModalEvent.open();
-        console.log(cardsEventsHtml);
-    }
-});
-
-const cardSubModalEvent = ob.modal({
+const cardSubModalEvent = ob.subModal({
     title: 'События в нашем кафе', // заголовок
     closable: true, // крестик
     width: '400px'
@@ -335,6 +421,8 @@ document.addEventListener('click', event => {
 
     if (Ec === 'menu'){
         console.log('открываем подменю')
+        event.preventDefault();
+        // console.log(subModal)
     }
     
 });

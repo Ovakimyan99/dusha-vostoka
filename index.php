@@ -67,15 +67,14 @@ function printPostValue($item){
 	<!-- <meta name="keywords" content="ключевое слово 1, ключевое слово 2, ключевое слово 3"/> -->
     <title>Душа востока</title>
 
-    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./css/header-menu.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/o-style.css">
     <!-- шрифты Lobster+Two и Exo+2 -->
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400&family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./libs/owlCarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="./libs/owlCarousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
     
 </head>
 <body>
@@ -795,24 +794,25 @@ function printPostValue($item){
 
     <!-- --- панорама --- -->
 
-    <div class="panorama">
-        <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a href="https://yandex.ru/maps/213/moscow/house/profsoyuznaya_ulitsa_128k1/Z04YcwZlT0YFQFtvfXpycXVrYQ==/?ll=37.515632%2C55.630985&panorama%5Bdirection%5D=309.139680%2C-7.211054&panorama%5Bfull%5D=true&panorama%5Bpoint%5D=37.516312%2C55.630668&panorama%5Bspan%5D=117.454518%2C56.950234&sll=37.622504%2C55.753215&sspn=1.444702%2C0.466239&utm_medium=mapframe&utm_source=maps&z=16.56" style="color:#eee;font-size:12px;position:absolute;top:14px;">Профсоюзная улица, 128к1 — Яндекс.Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCQpIXANLD" width="100%" height="300" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+    <div>
+        <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a href="https://yandex.ru/maps/213/moscow/house/profsoyuznaya_ulitsa_128k1/Z04YcwZlT0YFQFtvfXpycXVrYQ==/?ll=37.515632%2C55.630985&panorama%5Bdirection%5D=309.139680%2C-7.211054&panorama%5Bfull%5D=true&panorama%5Bpoint%5D=37.516312%2C55.630668&panorama%5Bspan%5D=117.454518%2C56.950234&sll=37.622504%2C55.753215&sspn=1.444702%2C0.466239&utm_medium=mapframe&utm_source=maps&z=16.56" style="color:#eee;font-size:12px;position:absolute;top:14px;">Профсоюзная улица, 128к1 — Яндекс.Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCQpIXANLD" width="100%" frameborder="1" allowfullscreen="true" style="position:relative;" class='panorama'></iframe></div>
     </div>
 
     
     <!-- <footer class="footer">
 
     </footer> -->
+    <script src="./js/o-index.js"></script>
 
-    <script src="./libs/jquery-3.5.1.min.js"></script>
-    <script src="./libs/jquery.malihu.PageScroll2id.min.js"></script>
-    <script src="./libs/jquery.vide.min.js"></script>
-    <script src="./js/wow.min.js"></script>
-    <script src="./libs/owlCarousel/owl.carousel.min.js"></script>
+    <!-- <script src="./libs/jquery-3.5.1.min.js"></script> -->
+    <!-- <script src="./libs/jquery.malihu.PageScroll2id.min.js"></script> -->
+    <!-- <script src="./libs/jquery.vide.min.js"></script> -->
+    <!-- <script src="./js/wow.min.js"></script> -->
+    <!-- <script src="./libs/owlCarousel/owl.carousel.min.js"></script> -->
 
-    <script src="./js/header.js"></script>
-    <script src="./js/main.js"></script>
-    <script>
+    <!-- <script src="./js/header.js"></script> -->
+    <!-- <script src="./js/main.js"></script> -->
+    <!-- <script>
         $(document).ready(function(){
 
             //первая карусель с галереей
@@ -874,15 +874,15 @@ function printPostValue($item){
             });
 
         });
-    </script>
+    </script> -->
 
     <!-- <script src="./js/general-modal.js"></script> -->
-    <script src="./js/base.js"></script>
-    <script src="./js/modal.js"></script>
-    <script src="./js/index.js"></script>
+    <!-- <script src="./js/base.js"></script> -->
+    <!-- <script src="./js/modal.js"></script> -->
+    <!-- <script src="./js/index.js"></script> -->
     
-    <script>new WOW().init();</script>
-    <script src="./js/header-button.js"></script>
+    <!-- <script>new WOW().init();</script> -->
+    <!-- <script src="./js/header-button.js"></script> -->
 
 </body>
 </html>
