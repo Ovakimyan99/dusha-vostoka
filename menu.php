@@ -352,7 +352,7 @@ function printPostValue($item){
 
         <!-- форма обратной связи -->
 
-    <div class="feedback-form screen">
+    <div class="feedback-form screen" id='form-wrapper'>
 
         <div class="content-index">
 
@@ -360,7 +360,7 @@ function printPostValue($item){
                 <h2 class="heading-title wow animate__animated animate__bounceInDown">Заказать столик</h2>
             </div>
 
-            <form method="POST" action="menu.php" class="form-wrapper">
+            <form method="POST" action="menu.php#form-wrapper" class="form-wrapper">
 
                 <?php
                     if(isset($failure)) {
