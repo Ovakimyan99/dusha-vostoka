@@ -1259,7 +1259,6 @@ height: 100%;
 .contacts-wrapper__information{
 border: 1px solid #90abc3c7;
 padding: 10px;
-border-radius: 10px;
 background-color: #726868a8;
 width: 100%;
 margin: 0 auto;
@@ -1337,6 +1336,7 @@ margin-top: 15px;
 
 .contacts-wrapper__information{
     margin: 0 auto;
+    padding: 10px 19px 10px;
 }
 }
 

@@ -48,9 +48,9 @@ function _createModal(options){
             </div>
         </div>
     </div>
-    `)
-    const footer = _createModalFooter(options.footerButtons)
-    footer.appendAfter(modal.querySelector('[data-content]'))
+    `);
+    const footer = _createModalFooter(options.footerButtons);
+    footer.appendAfter(modal.querySelector('[data-content]'));
     document.body.appendChild(modal);
     return modal;
 }
@@ -66,41 +66,41 @@ ob.modal = function(options){
             if (destroyed) {
                 return console.log('Modal is destroyed');
             }
-            !closing && Cmodal.classList.add('open')
+            !closing && Cmodal.classList.add('open');
             },
             close() {
                 closing = true;
                 Cmodal.classList.remove('open');
-                Cmodal.classList.add('hide')
+                Cmodal.classList.add('hide');
                 setTimeout(() => {
                     closing = false;
                     Cmodal.classList.remove('hide');
-                }, animationSpeed)
+                }, animationSpeed);
         }
     }
 
     const listener = event => {
         if ( event.target.dataset.close ) {
-            modal.close()
+            modal.close();
         }
         //функция, в которой отслеживается клик по data-close, по нажатии которой модалка закрывается
     }
 
-    Cmodal.addEventListener('click', listener)
+    Cmodal.addEventListener('click', listener);
 
     return Object.assign(modal, {
         destroy() {
-            Cmodal.parentNode.removeChild(Cmodal)
-            Cmodal.removeEventListener('click', listener)
+            Cmodal.parentNode.removeChild(Cmodal);
+            Cmodal.removeEventListener('click', listener);
             destroyed = true;
         },
         setContent(html) {
-            Cmodal.querySelector('[data-content]').innerHTML = html
+            Cmodal.querySelector('[data-content]').innerHTML = html;
             //динамически изменяем содержимое модального окна (class="event-modal-body"), 
             //если вызвать метод setContent(html) и вместо html вписать свое
         }
-    })
-} 
+    });
+} ;
 
 //index.js
 
@@ -108,7 +108,7 @@ const cardsEvents = [
     {id: 'events-elems-header-first', name: 'Событие 1', text:'текст', img: './img/news/zaglushka.png', alt: 'описание один', title: 'т описание один', text: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit 1'},
     {id: 'events-elems-header-second', name: 'Событие 2', text: 'текст 2', img: './img/news/zaglushka.png', alt: 'описание два', title: 'т описание два', text: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit 2'},
     {id: 'events-elems-header-third', name: 'Событие 3', text: 'текст 3', img: './img/news/zaglushka.png', alt: 'описание три', title: 'т описание три', text: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit 3'}
-]
+];
 
 const toHTML = cardsEventsHtml => `
 <div class="events-elems-header" id="${cardsEventsHtml.id}">
@@ -124,11 +124,11 @@ const toHTML = cardsEventsHtml => `
     </div>
     <a href="#" class="events-elems-header__title">${cardsEventsHtml.name}</a>
 </div>
-`
+`;
 
 function render() {
-    const html = cardsEvents.map(toHTML).join('')
-    document.querySelector('#events-wrapper').innerHTML = html
+    const html = cardsEvents.map(toHTML).join('');
+    document.querySelector('#events-wrapper').innerHTML = html;
 }
 
 render();

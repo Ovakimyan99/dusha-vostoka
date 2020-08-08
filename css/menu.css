@@ -68,6 +68,10 @@ h3, h4{
     bottom: 0;
 }
 
+.shadow-top{
+    bottom: 100%;
+}
+
 .menu-wrapper--shadow.open{
     bottom: 100%;
 }
@@ -89,14 +93,18 @@ h3, h4{
 .menu__item--subblock{
     position: absolute;
     bottom: -100%;
-    background-color: brown;
+    background-color: rgb(54, 23, 24);
     height: 100%;
     width: 100%;
     transition: 1s;
     border: 3px dashed #fff;
     color: #fff;
-    overflow-y: scroll;
     padding: 10px 0;
+    overflow: hidden;
+}
+
+.open-menu-subb{
+    bottom: 0;
 }
 
 .menu__item--subblock-arrow-up{
@@ -141,6 +149,11 @@ h3, h4{
     cursor: pointer;
 }
 
+.menu__with-dishes-wrapper{
+    overflow-y: scroll;
+    max-height: calc(100% - 50px);
+}
+
 .menu__block-with-dishes{
     padding: 0 2%;
     margin-bottom: 25px;
@@ -151,9 +164,16 @@ h3, h4{
 }
 
 .menu__block-with-dishes h3{
-
     text-align: center;
     margin-bottom: 10px;
+}
+
+.menu__block-with-dishes h4{
+    
+    font-size: 14px;
+    margin-top: 22px;
+    text-align: left;
+    font-family: sans-serif;
 }
 
 .menu__list{
@@ -164,15 +184,21 @@ h3, h4{
     max-height: 300px;
     overflow-y: auto;
     overflow-x: hidden;
+    padding-bottom: 5px;
 }
 
 .menu__list--item{
-
     font-size: 18px;
     border-bottom: 3px dotted aliceblue;
-    margin: 10px 0;
+    margin: 7px 0;
     text-transform: uppercase;
     line-height: 1;
+    display: inline-block;
+    width: 100%;
+}
+
+.menu__list--item:last-child{
+    margin-bottom: 0;
 }
 
 .menu__list--item-word{
@@ -184,9 +210,9 @@ h3, h4{
     width: calc(100% + 5px);
     height: 6px;
     position: absolute;
-    background: brown;
+    background: rgb(54, 23, 24);
     bottom: -5px;
-    left: -1px
+    left: -1px;
 }
 
 .menu__list--item-gram, .menu__list--item-price{
@@ -250,13 +276,13 @@ h3, h4{
     }
 
     .sliderWrapper__nav{
-        width: 740px;
+        width: 690px;
         top: calc(50% - 35px);
-        left: calc(50% - 740px/2);
+        left: calc(50% - 689px/2);
     }
     
     .menu__item{
-        width: 635px;
+        width: 550px;
     }
 }
 
