@@ -160,7 +160,7 @@ function printPostValue($item){
 
                 <div class="menu__item">
 
-                    <img data-src="./img/menu-price/page-1.jpg" alt="меню 1" title="меню 1" class="menu__item--dishes owl-lazy">
+                    <img data-src="./img/menu-price/page-2.jpg" alt="меню 1" title="меню 1" class="menu__item--dishes owl-lazy">
 
                     <div class="menu-wrapper">  
 
@@ -170,6 +170,7 @@ function printPostValue($item){
                         </div>
 
                         <!-- по картинкам: page-1 -->
+
                         <div class="menu__item--subblock">
                             
                             <div class="menu-hat">
@@ -180,7 +181,225 @@ function printPostValue($item){
 
                             </div>
 
-                                <div class="menu__with-dishes-wrapper">
+                                <div class="menu__with-dishes-wrapper"> 
+
+                                    <div class="menu__block-with-dishes">
+
+                                        <h3>ЗАВТРАКИ</h3>
+                                        
+                                        <ul class="menu__list">
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="1t">БЛИНЧИКИ С МЯСОМ</span>
+                                                <span class="menu__list--item-price">170р</span>
+                                                <span class="menu__list--item-gram">200г</span>
+                                            </li>
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="2t">БЛИНЧИКИ С ТВОРОГОМ</span>
+                                                <span class="menu__list--item-price">170р</span>
+                                                <span class="menu__list--item-gram">200г</span>
+                                            </li>
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="3t">ЯИЧНИЦА "ГЛАЗУНЬЯ"</span>
+                                                <span class="menu__list--item-price">170р</span>
+                                                <span class="menu__list--item-gram">120г</span>
+                                            </li>
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word">КАША ОВСЯНАЯ</span>
+                                                <span class="menu__list--item-price">120р</span>
+                                                <span class="menu__list--item-gram">200г</span>
+                                            </li>
+
+                                        </ul>
+
+                                    </div>
+
+                                    <div class="menu__block-with-dishes">
+
+                                        <h3>САЛАТЫ</h3>
+                                        
+                                        <ul class="menu__list">
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word">ОЛИВЬЕ С КУРИЦЕЙ</span>
+                                                <span class="menu__list--item-price">260р</span>
+                                                <span class="menu__list--item-gram">250г</span>
+                                            </li>
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word">ГРЕЧЕСКИЙ</span>
+                                                <span class="menu__list--item-price">300р</span>
+                                                <span class="menu__list--item-gram">250г</span>
+                                            </li>
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word">ЦЕЗАРЬ С КУРИЦЕЙ</span>
+                                                <span class="menu__list--item-price">280р</span>
+                                                <span class="menu__list--item-gram">250г</span>
+                                            </li>
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word">ЦЕЗАРЬ С КРИВЕТКАМИ</span>
+                                                <span class="menu__list--item-price">300р</span>
+                                                <span class="menu__list--item-gram">250г</span>
+                                            </li>
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word">РУККОЛА С КРЕВЕТКАМИ</span>
+                                                <span class="menu__list--item-price">300р</span>
+                                                <span class="menu__list--item-gram">230г</span>
+                                            </li>
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word">МЯСНОЙ</span>
+                                                <span class="menu__list--item-price">320р</span>
+                                                <span class="menu__list--item-gram">250г</span>
+                                            </li>
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word">ТАР - ТАР ИЗ ГОВЯДИНЫ</span>
+                                                <span class="menu__list--item-price">300р</span>
+                                                <span class="menu__list--item-gram">200г</span>
+                                            </li>
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word">КАЛЬМАРОВЫЙ</span>
+                                                <span class="menu__list--item-price">340р</span>
+                                                <span class="menu__list--item-gram">250г</span>
+                                            </li>
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word">САЛАТ "ДУША ВОСТОКА"</span>
+                                                <span class="menu__list--item-price">350р</span>
+                                                <span class="menu__list--item-gram">250г</span>
+                                            </li>
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word">ПОМИДОРЫ С КРАСНЫМ ЛУКОМ И АВОКАДО</span>
+                                                <span class="menu__list--item-price">340р</span>
+                                                <span class="menu__list--item-gram">220г</span>
+                                            </li>
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word">МАНГАЛ САЛАТ</span>
+                                                <span class="menu__list--item-price">200р</span>
+                                                <span class="menu__list--item-gram">250г</span>
+                                            </li>
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word">ОВОЩНОЙ БУКЕТ</span>
+                                                <span class="menu__list--item-price">250р</span>
+                                                <span class="menu__list--item-gram">450г</span>
+                                            </li>
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word">ТЕПЛЫЙ ФЛАМБЕ</span>
+                                                <span class="menu__list--item-price">320р</span>
+                                                <span class="menu__list--item-gram">250г</span>
+                                            </li>
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word">САЛАТ ВОСТОЧНЫЙ</span>
+                                                <span class="menu__list--item-price">320р</span>
+                                                <span class="menu__list--item-gram">250г</span>
+                                            </li>
+
+                                        </ul>
+
+                                    </div>
+
+                                    <div class="menu__block-with-dishes">
+
+                                        <h3>ХОЛОДНЫЕ ЗАКУСКИ</h3>
+                                        
+                                        <ul class="menu__list">
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word">МЯСНАЯ ТАРЕЛКА</span>
+                                                <span class="menu__list--item-price">700р</span>
+                                                <span class="menu__list--item-gram">450г</span>
+                                            </li>
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word">АССОРТИ БРУСЕТТА</span>
+                                                <span class="menu__list--item-price">250р</span>
+                                                <span class="menu__list--item-gram">250г</span>
+                                            </li>
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word">РЫБНОЕ АССОРТИ</span>
+                                                <span class="menu__list--item-price">750р</span>
+                                                <span class="menu__list--item-gram">450г</span>
+                                            </li>
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word">СЫРНАЯ ТАРЕЛКА</span>
+                                                <span class="menu__list--item-price">350р</span>
+                                                <span class="menu__list--item-gram">250г</span>
+                                            </li>
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word">РУЛЕТИКИ ИЗ БАКЛАЖАНОВ</span>
+                                                <span class="menu__list--item-price">270р</span>
+                                                <span class="menu__list--item-gram">250г</span>
+                                            </li>
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word">ГРИБНОЕ АССОРТИ</span>
+                                                <span class="menu__list--item-price">280р</span>
+                                                <span class="menu__list--item-gram">160г</span>
+                                            </li>
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word">АССОРТИ СОЛЕНИЙ</span>
+                                                <span class="menu__list--item-price">350р</span>
+                                                <span class="menu__list--item-gram">500г</span>
+                                            </li>
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word">ВОСТОЧНАЯ ТАРЕЛКА</span>
+                                                <span class="menu__list--item-price">400р</span>
+                                                <span class="menu__list--item-gram">260г</span>
+                                            </li>
+
+                                        </ul>
+
+                                    </div>
+
+                                </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="menu__item">
+
+                    <img data-src="./img/menu-price/page-1.jpg" alt="меню 2" title="меню 2" class="menu__item--dishes owl-lazy">
+
+                    <div class="menu-wrapper">  
+
+                        <!-- блок с тенью -->
+                        <div class="menu-wrapper--shadow" data-open="menu">
+                            <div class="menu__item--subblock-arrow-up" data-open="menu"></div>
+                        </div>
+
+                        <!-- по картинкам: page-2 -->
+                        <div class="menu__item--subblock">
+                            
+                            <div class="menu-hat">
+
+                                кафе
+                                <span>Душа Востока</span>
+                                <img data-src="./img/menu/close-img.png" data-open="closeImg" alt="" title="" class="menu__close-img owl-lazy">
+
+                            </div>
+
+                            <div class="menu__with-dishes-wrapper">
 
                                     <div class="menu__block-with-dishes">
 
@@ -447,228 +666,10 @@ function printPostValue($item){
                                     </div>
 
                                 </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div class="menu__item">
-
-                    <img data-src="./img/menu-price/page-2.jpg" alt="меню 2" title="меню 2" class="menu__item--dishes owl-lazy">
-
-                    <div class="menu-wrapper">  
-
-                        <!-- блок с тенью -->
-                        <div class="menu-wrapper--shadow" data-open="menu">
-                            <div class="menu__item--subblock-arrow-up" data-open="menu"></div>
-                        </div>
-
-                        <!-- по картинкам: page-2 -->
-                        <div class="menu__item--subblock">
-                            
-                            <div class="menu-hat">
-
-                                кафе
-                                <span>Душа Востока</span>
-                                <img data-src="./img/menu/close-img.png" data-open="closeImg" alt="" title="" class="menu__close-img owl-lazy">
-
+                  
                             </div>
 
-                                <div class="menu__with-dishes-wrapper"> 
-
-                                    <div class="menu__block-with-dishes">
-
-                                        <h3>ЗАВТРАКИ</h3>
-                                        
-                                        <ul class="menu__list">
-
-                                            <li class="menu__list--item">
-                                                <span class="menu__list--item-word">БЛИНЧИКИ С МЯСОМ</span>
-                                                <span class="menu__list--item-price">170р</span>
-                                                <span class="menu__list--item-gram">200г</span>
-                                            </li>
-
-                                            <li class="menu__list--item">
-                                                <span class="menu__list--item-word">БЛИНЧИКИ С ТВОРОГОМ</span>
-                                                <span class="menu__list--item-price">170р</span>
-                                                <span class="menu__list--item-gram">200г</span>
-                                            </li>
-
-                                            <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЯИЧНИЦА "ГЛАЗУНЬЯ"</span>
-                                                <span class="menu__list--item-price">170р</span>
-                                                <span class="menu__list--item-gram">120г</span>
-                                            </li>
-
-                                            <li class="menu__list--item">
-                                                <span class="menu__list--item-word">КАША ОВСЯНАЯ</span>
-                                                <span class="menu__list--item-price">120р</span>
-                                                <span class="menu__list--item-gram">200г</span>
-                                            </li>
-
-                                        </ul>
-
-                                    </div>
-
-                                    <div class="menu__block-with-dishes">
-
-                                        <h3>САЛАТЫ</h3>
-                                        
-                                        <ul class="menu__list">
-
-                                            <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ОЛИВЬЕ С КУРИЦЕЙ</span>
-                                                <span class="menu__list--item-price">260р</span>
-                                                <span class="menu__list--item-gram">250г</span>
-                                            </li>
-
-                                            <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ГРЕЧЕСКИЙ</span>
-                                                <span class="menu__list--item-price">300р</span>
-                                                <span class="menu__list--item-gram">250г</span>
-                                            </li>
-
-                                            <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЦЕЗАРЬ С КУРИЦЕЙ</span>
-                                                <span class="menu__list--item-price">280р</span>
-                                                <span class="menu__list--item-gram">250г</span>
-                                            </li>
-
-                                            <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЦЕЗАРЬ С КРИВЕТКАМИ</span>
-                                                <span class="menu__list--item-price">300р</span>
-                                                <span class="menu__list--item-gram">250г</span>
-                                            </li>
-
-                                            <li class="menu__list--item">
-                                                <span class="menu__list--item-word">РУККОЛА С КРЕВЕТКАМИ</span>
-                                                <span class="menu__list--item-price">300р</span>
-                                                <span class="menu__list--item-gram">230г</span>
-                                            </li>
-
-                                            <li class="menu__list--item">
-                                                <span class="menu__list--item-word">МЯСНОЙ</span>
-                                                <span class="menu__list--item-price">320р</span>
-                                                <span class="menu__list--item-gram">250г</span>
-                                            </li>
-
-                                            <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ТАР - ТАР ИЗ ГОВЯДИНЫ</span>
-                                                <span class="menu__list--item-price">300р</span>
-                                                <span class="menu__list--item-gram">200г</span>
-                                            </li>
-
-                                            <li class="menu__list--item">
-                                                <span class="menu__list--item-word">КАЛЬМАРОВЫЙ</span>
-                                                <span class="menu__list--item-price">340р</span>
-                                                <span class="menu__list--item-gram">250г</span>
-                                            </li>
-
-                                            <li class="menu__list--item">
-                                                <span class="menu__list--item-word">САЛАТ "ДУША ВОСТОКА"</span>
-                                                <span class="menu__list--item-price">350р</span>
-                                                <span class="menu__list--item-gram">250г</span>
-                                            </li>
-
-                                            <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ПОМИДОРЫ С КРАСНЫМ ЛУКОМ И АВОКАДО</span>
-                                                <span class="menu__list--item-price">340р</span>
-                                                <span class="menu__list--item-gram">220г</span>
-                                            </li>
-
-                                            <li class="menu__list--item">
-                                                <span class="menu__list--item-word">МАНГАЛ САЛАТ</span>
-                                                <span class="menu__list--item-price">200р</span>
-                                                <span class="menu__list--item-gram">250г</span>
-                                            </li>
-
-                                            <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ОВОЩНОЙ БУКЕТ</span>
-                                                <span class="menu__list--item-price">250р</span>
-                                                <span class="menu__list--item-gram">450г</span>
-                                            </li>
-
-                                            <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ТЕПЛЫЙ ФЛАМБЕ</span>
-                                                <span class="menu__list--item-price">320р</span>
-                                                <span class="menu__list--item-gram">250г</span>
-                                            </li>
-
-                                            <li class="menu__list--item">
-                                                <span class="menu__list--item-word">САЛАТ ВОСТОЧНЫЙ</span>
-                                                <span class="menu__list--item-price">320р</span>
-                                                <span class="menu__list--item-gram">250г</span>
-                                            </li>
-
-                                        </ul>
-
-                                    </div>
-
-                                    <div class="menu__block-with-dishes">
-
-                                        <h3>ХОЛОДНЫЕ ЗАКУСКИ</h3>
-                                        
-                                        <ul class="menu__list">
-
-                                            <li class="menu__list--item">
-                                                <span class="menu__list--item-word">МЯСНАЯ ТАРЕЛКА</span>
-                                                <span class="menu__list--item-price">700р</span>
-                                                <span class="menu__list--item-gram">450г</span>
-                                            </li>
-
-                                            <li class="menu__list--item">
-                                                <span class="menu__list--item-word">АССОРТИ БРУСЕТТА</span>
-                                                <span class="menu__list--item-price">250р</span>
-                                                <span class="menu__list--item-gram">250г</span>
-                                            </li>
-
-                                            <li class="menu__list--item">
-                                                <span class="menu__list--item-word">РЫБНОЕ АССОРТИ</span>
-                                                <span class="menu__list--item-price">750р</span>
-                                                <span class="menu__list--item-gram">450г</span>
-                                            </li>
-
-                                            <li class="menu__list--item">
-                                                <span class="menu__list--item-word">СЫРНАЯ ТАРЕЛКА</span>
-                                                <span class="menu__list--item-price">350р</span>
-                                                <span class="menu__list--item-gram">250г</span>
-                                            </li>
-
-                                            <li class="menu__list--item">
-                                                <span class="menu__list--item-word">РУЛЕТИКИ ИЗ БАКЛАЖАНОВ</span>
-                                                <span class="menu__list--item-price">270р</span>
-                                                <span class="menu__list--item-gram">250г</span>
-                                            </li>
-
-                                            <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ГРИБНОЕ АССОРТИ</span>
-                                                <span class="menu__list--item-price">280р</span>
-                                                <span class="menu__list--item-gram">160г</span>
-                                            </li>
-
-                                            <li class="menu__list--item">
-                                                <span class="menu__list--item-word">АССОРТИ СОЛЕНИЙ</span>
-                                                <span class="menu__list--item-price">350р</span>
-                                                <span class="menu__list--item-gram">500г</span>
-                                            </li>
-
-                                            <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ВОСТОЧНАЯ ТАРЕЛКА</span>
-                                                <span class="menu__list--item-price">400р</span>
-                                                <span class="menu__list--item-gram">260г</span>
-                                            </li>
-
-                                        </ul>
-
-                                    </div>
-
-                                </div>
-
                         </div>
-
-                    </div>
 
                 </div>
 
@@ -1438,31 +1439,23 @@ function printPostValue($item){
                 items: 1,
                 lazyLoad:true,
                 margin:10,
-                // autoplay:true,
-                autoplayTimeout:6000,
-                autoplayHoverPause:true,
                 autoWidth:true,
                 center: true,
                 dots: false,
                 loop: true,
                 lazyLoadEager: 1,
                 smartSpeed: 700,
+                onDragged: callback,
                 responsive : {
-                        320:{
-                            autoWidth:false
+                        319:{
+                            autoWidth:false,
+                            center: false
+                            // margin: 
                         },
                         640:{
                             autoWidth:true
                         }
                     }
-            })
-
-            $('.customNextBtn').click(function() {
-                $('.owl-carousel').trigger('next.owl.carousel');
-            })
-            // Go to the previous item
-            $('.customPrevBtn').click(function() {
-                $('.owl-carousel').trigger('prev.owl.carousel');
             })
             
         })
