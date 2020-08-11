@@ -190,25 +190,25 @@ function printPostValue($item){
                                         <ul class="menu__list">
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word" data-item="openModal" data-id="1t">БЛИНЧИКИ С МЯСОМ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="breakfasts-1">БЛИНЧИКИ С МЯСОМ</span>
                                                 <span class="menu__list--item-price">170р</span>
                                                 <span class="menu__list--item-gram">200г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word" data-item="openModal" data-id="2t">БЛИНЧИКИ С ТВОРОГОМ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="breakfasts-2">БЛИНЧИКИ С ТВОРОГОМ</span>
                                                 <span class="menu__list--item-price">170р</span>
                                                 <span class="menu__list--item-gram">200г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word" data-item="openModal" data-id="3t">ЯИЧНИЦА "ГЛАЗУНЬЯ"</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="breakfasts-3">ЯИЧНИЦА "ГЛАЗУНЬЯ"</span>
                                                 <span class="menu__list--item-price">170р</span>
                                                 <span class="menu__list--item-gram">120г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">КАША ОВСЯНАЯ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="breakfasts-4">КАША ОВСЯНАЯ</span>
                                                 <span class="menu__list--item-price">120р</span>
                                                 <span class="menu__list--item-gram">200г</span>
                                             </li>
@@ -224,85 +224,85 @@ function printPostValue($item){
                                         <ul class="menu__list">
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ОЛИВЬЕ С КУРИЦЕЙ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="salad-1">ОЛИВЬЕ С КУРИЦЕЙ</span>
                                                 <span class="menu__list--item-price">260р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ГРЕЧЕСКИЙ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="salad-2">ГРЕЧЕСКИЙ</span>
                                                 <span class="menu__list--item-price">300р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЦЕЗАРЬ С КУРИЦЕЙ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="salad-3">ЦЕЗАРЬ С КУРИЦЕЙ</span>
                                                 <span class="menu__list--item-price">280р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЦЕЗАРЬ С КРИВЕТКАМИ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="salad-4">ЦЕЗАРЬ С КРИВЕТКАМИ</span>
                                                 <span class="menu__list--item-price">300р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">РУККОЛА С КРЕВЕТКАМИ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="salad-5">РУККОЛА С КРЕВЕТКАМИ</span>
                                                 <span class="menu__list--item-price">300р</span>
                                                 <span class="menu__list--item-gram">230г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">МЯСНОЙ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="salad-6">МЯСНОЙ</span>
                                                 <span class="menu__list--item-price">320р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ТАР - ТАР ИЗ ГОВЯДИНЫ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="salad-7">ТАР - ТАР ИЗ ГОВЯДИНЫ</span>
                                                 <span class="menu__list--item-price">300р</span>
                                                 <span class="menu__list--item-gram">200г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">КАЛЬМАРОВЫЙ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="salad-8">КАЛЬМАРОВЫЙ</span>
                                                 <span class="menu__list--item-price">340р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">САЛАТ "ДУША ВОСТОКА"</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="salad-9">САЛАТ "ДУША ВОСТОКА"</span>
                                                 <span class="menu__list--item-price">350р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ПОМИДОРЫ С КРАСНЫМ ЛУКОМ И АВОКАДО</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="salad-10">ПОМИДОРЫ С КРАСНЫМ ЛУКОМ И АВОКАДО</span>
                                                 <span class="menu__list--item-price">340р</span>
                                                 <span class="menu__list--item-gram">220г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">МАНГАЛ САЛАТ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="salad-11">МАНГАЛ САЛАТ</span>
                                                 <span class="menu__list--item-price">200р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ОВОЩНОЙ БУКЕТ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="salad-12">ОВОЩНОЙ БУКЕТ</span>
                                                 <span class="menu__list--item-price">250р</span>
                                                 <span class="menu__list--item-gram">450г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ТЕПЛЫЙ ФЛАМБЕ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="salad-13">ТЕПЛЫЙ ФЛАМБЕ</span>
                                                 <span class="menu__list--item-price">320р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">САЛАТ ВОСТОЧНЫЙ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="salad-14">САЛАТ ВОСТОЧНЫЙ</span>
                                                 <span class="menu__list--item-price">320р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
@@ -318,49 +318,49 @@ function printPostValue($item){
                                         <ul class="menu__list">
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">МЯСНАЯ ТАРЕЛКА</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="cold-snacks-1">МЯСНАЯ ТАРЕЛКА</span>
                                                 <span class="menu__list--item-price">700р</span>
                                                 <span class="menu__list--item-gram">450г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">АССОРТИ БРУСЕТТА</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="cold-snacks-2">АССОРТИ БРУСЕТТА</span>
                                                 <span class="menu__list--item-price">250р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">РЫБНОЕ АССОРТИ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="cold-snacks-3">РЫБНОЕ АССОРТИ</span>
                                                 <span class="menu__list--item-price">750р</span>
                                                 <span class="menu__list--item-gram">450г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">СЫРНАЯ ТАРЕЛКА</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="cold-snacks-4">СЫРНАЯ ТАРЕЛКА</span>
                                                 <span class="menu__list--item-price">350р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">РУЛЕТИКИ ИЗ БАКЛАЖАНОВ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="cold-snacks-5">РУЛЕТИКИ ИЗ БАКЛАЖАНОВ</span>
                                                 <span class="menu__list--item-price">270р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ГРИБНОЕ АССОРТИ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="cold-snacks-6">ГРИБНОЕ АССОРТИ</span>
                                                 <span class="menu__list--item-price">280р</span>
                                                 <span class="menu__list--item-gram">160г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">АССОРТИ СОЛЕНИЙ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="cold-snacks-7">АССОРТИ СОЛЕНИЙ</span>
                                                 <span class="menu__list--item-price">350р</span>
                                                 <span class="menu__list--item-gram">500г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ВОСТОЧНАЯ ТАРЕЛКА</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="cold-snacks-8">ВОСТОЧНАЯ ТАРЕЛКА</span>
                                                 <span class="menu__list--item-price">400р</span>
                                                 <span class="menu__list--item-gram">260г</span>
                                             </li>
@@ -408,85 +408,85 @@ function printPostValue($item){
                                         <ul class="menu__list">
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">САМСА ОСОБАЯ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="hot-snack-1">САМСА ОСОБАЯ</span>
                                                 <span class="menu__list--item-price">180р</span>
                                                 <span class="menu__list--item-gram">150г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">САМСА С БАРАНИНОЙ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="hot-snack-2">САМСА С БАРАНИНОЙ</span>
                                                 <span class="menu__list--item-price">180р</span>
                                                 <span class="menu__list--item-gram">150г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЖУЛЬЕН С ГРИБАМИ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="hot-snack-3">ЖУЛЬЕН С ГРИБАМИ</span>
                                                 <span class="menu__list--item-price">200р</span>
                                                 <span class="menu__list--item-gram">160г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ШАУРМА ПО - АРАБСКИ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="hot-snack-4">ШАУРМА ПО - АРАБСКИ</span>
                                                 <span class="menu__list--item-price">250р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                            <span class="menu__list--item-word">КУТАБ С СЫРОМ</span>
+                                            <span class="menu__list--item-word" data-item="openModal" data-id="hot-snack-5">КУТАБ С СЫРОМ</span>
                                                 <span class="menu__list--item-price">70р</span>
                                                 <span class="menu__list--item-gram">180г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                            <span class="menu__list--item-word">СЫРНЫЕ ШАРИКИ</span>
+                                            <span class="menu__list--item-word" data-item="openModal" data-id="hot-snack-6">СЫРНЫЕ ШАРИКИ</span>
                                                 <span class="menu__list--item-price">240р</span>
                                                 <span class="menu__list--item-gram">200г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                            <span class="menu__list--item-word">КУТАБЫ С ЗЕЛЕНЬЮ</span>
+                                            <span class="menu__list--item-word" data-item="openModal" data-id="hot-snack-7">КУТАБЫ С ЗЕЛЕНЬЮ</span>
                                                 <span class="menu__list--item-price">70р</span>
                                                 <span class="menu__list--item-gram">180г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                            <span class="menu__list--item-word">ПИВНАЯ ТАРЕЛКА</span>
+                                            <span class="menu__list--item-word" data-item="openModal" data-id="hot-snack-8">ПИВНАЯ ТАРЕЛКА</span>
                                                 <span class="menu__list--item-price">340р</span>
                                                 <span class="menu__list--item-gram">400г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ГРЕНКИ С ЧЕСНОКОМ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="hot-snack-9">ГРЕНКИ С ЧЕСНОКОМ</span>
                                                 <span class="menu__list--item-price">150р</span>
                                                 <span class="menu__list--item-gram">150г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ПИВНАЯ ЗАКУСКА</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="hot-snack-10">ПИВНАЯ ЗАКУСКА</span>
                                                 <span class="menu__list--item-price">300р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЧЕБУРЕК С СЫРОМ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="hot-snack-11">ЧЕБУРЕК С СЫРОМ</span>
                                                 <span class="menu__list--item-price">70р</span>
                                                 <span class="menu__list--item-gram">150г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЧЕБУРЕК С МЯСОМ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="hot-snack-12">ЧЕБУРЕК С МЯСОМ</span>
                                                 <span class="menu__list--item-price">70р</span>
                                                 <span class="menu__list--item-gram">150г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">КРЫЛЬЯ КУРИНЫЕ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="hot-snack-13">КРЫЛЬЯ КУРИНЫЕ</span>
                                                 <span class="menu__list--item-price">220р</span>
                                                 <span class="menu__list--item-gram">170г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">КРЕВЕТКИ ТИГРОВЫЕ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="hot-snack-14">КРЕВЕТКИ ТИГРОВЫЕ</span>
                                                 <span class="menu__list--item-price">260р</span>
                                                 <span class="menu__list--item-gram">120г</span>
                                             </li>
@@ -502,49 +502,49 @@ function printPostValue($item){
                                         <ul class="menu__list">
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ШУРПА С БАРАНИНОЙ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="first-meal-1">ШУРПА С БАРАНИНОЙ</span>
                                                 <span class="menu__list--item-price">180р</span>
                                                 <span class="menu__list--item-gram">150г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">БОРЩ МОСКОВСКИЙ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="first-meal-2">БОРЩ МОСКОВСКИЙ</span>
                                                 <span class="menu__list--item-price">180р</span>
                                                 <span class="menu__list--item-gram">150г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЛАГМАН</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="first-meal-3">ЛАГМАН</span>
                                                 <span class="menu__list--item-price">200р</span>
                                                 <span class="menu__list--item-gram">160г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">СУП-ЛАПША КУРИНАЯ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="first-meal-4">СУП-ЛАПША КУРИНАЯ</span>
                                                 <span class="menu__list--item-price">250р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                            <span class="menu__list--item-word">ПИТИ</span>
+                                            <span class="menu__list--item-word" data-item="openModal" data-id="first-meal-5">ПИТИ</span>
                                                 <span class="menu__list--item-price">70р</span>
                                                 <span class="menu__list--item-gram">180г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                            <span class="menu__list--item-word">УХА ПО - БРАКОНЬЕРСКИ</span>
+                                            <span class="menu__list--item-word" data-item="openModal" data-id="first-meal-6">УХА ПО - БРАКОНЬЕРСКИ</span>
                                                 <span class="menu__list--item-price">240р</span>
                                                 <span class="menu__list--item-gram">200г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                            <span class="menu__list--item-word">КАПУЧИНО С БЕЛЫМИ ГРИБАМИ</span>
+                                            <span class="menu__list--item-word" data-item="openModal" data-id="first-meal-7">КАПУЧИНО С БЕЛЫМИ ГРИБАМИ</span>
                                                 <span class="menu__list--item-price">70р</span>
                                                 <span class="menu__list--item-gram">180г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                            <span class="menu__list--item-word">ХАРЧО</span>
+                                            <span class="menu__list--item-word" data-item="openModal" data-id="first-meal-8">ХАРЧО</span>
                                                 <span class="menu__list--item-price">340р</span>
                                                 <span class="menu__list--item-gram">400г</span>
                                             </li>
@@ -560,103 +560,103 @@ function printPostValue($item){
                                         <ul class="menu__list">
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ПЛОВ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="second-hot-dishes-1">ПЛОВ</span>
                                                 <span class="menu__list--item-price">2200р</span>
                                                 <span class="menu__list--item-gram">3000г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">МАНТЫ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="second-hot-dishes-2">МАНТЫ</span>
                                                 <span class="menu__list--item-price">230р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ДОЛМА</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="second-hot-dishes-3">ДОЛМА</span>
                                                 <span class="menu__list--item-price">250р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЛАГМАН УЙГУРИСКИЙ "ДУША ВОСТОКА"</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="second-hot-dishes-4">ЛАГМАН УЙГУРИСКИЙ "ДУША ВОСТОКА"</span>
                                                 <span class="menu__list--item-price">250р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                            <span class="menu__list--item-word">КАЗАН - КЕБАБ</span>
+                                            <span class="menu__list--item-word" data-item="openModal" data-id="second-hot-dishes-5">КАЗАН - КЕБАБ</span>
                                                 <span class="menu__list--item-price">300р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                            <span class="menu__list--item-word">ЦЫПЛЕНОК ТАБАКА</span>
+                                            <span class="menu__list--item-word" data-item="openModal" data-id="second-hot-dishes-6">ЦЫПЛЕНОК ТАБАКА</span>
                                                 <span class="menu__list--item-price">400р</span>
                                                 <span class="menu__list--item-gram">320г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                            <span class="menu__list--item-word">ДОРАДО С ОВОЩАМИ</span>
+                                            <span class="menu__list--item-word" data-item="openModal" data-id="second-hot-dishes-7">ДОРАДО С ОВОЩАМИ</span>
                                                 <span class="menu__list--item-price">400р</span>
                                                 <span class="menu__list--item-gram">350г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                            <span class="menu__list--item-word">ЛОСОСЬ</span>
+                                            <span class="menu__list--item-word"  data-item="openModal" data-id="second-hot-dishes-8">ЛОСОСЬ</span>
                                                 <span class="menu__list--item-price">450р</span>
                                                 <span class="menu__list--item-gram">300г</span>
                                             </li>
                                             
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЛАПША СОБА</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="second-hot-dishes-9">ЛАПША СОБА</span>
                                                 <span class="menu__list--item-price">280р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">МЕДАЛЬОНЫ С ГРИБАМИ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="second-hot-dishes-10">МЕДАЛЬОНЫ С ГРИБАМИ</span>
                                                 <span class="menu__list--item-price">350р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">БУРГЕР НЕРО</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="second-hot-dishes-11">БУРГЕР НЕРО</span>
                                                 <span class="menu__list--item-price">300р</span>
                                                 <span class="menu__list--item-gram">300г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">КУРИНОЕ ФИЛЕ ПО - ТАЙСКИ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="second-hot-dishes-12">КУРИНОЕ ФИЛЕ ПО - ТАЙСКИ</span>
                                                 <span class="menu__list--item-price">320р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                            <span class="menu__list--item-word">ТЕЛЯТИНА ТЕРИЯКИ</span>
+                                            <span class="menu__list--item-word" data-item="openModal" data-id="second-hot-dishes-13">ТЕЛЯТИНА ТЕРИЯКИ</span>
                                                 <span class="menu__list--item-price">350р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                            <span class="menu__list--item-word">ФИЛЕ МИНЬОН</span>
+                                            <span class="menu__list--item-word" data-item="openModal" data-id="second-hot-dishes-14">ФИЛЕ МИНЬОН</span>
                                                 <span class="menu__list--item-price">500р</span>
                                                 <span class="menu__list--item-gram">280г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                            <span class="menu__list--item-word">ПЕЛЬМАНИ ЖАРЕНЫЕ</span>
+                                            <span class="menu__list--item-word" data-item="openModal" data-id="second-hot-dishes-15">ПЕЛЬМАНИ ЖАРЕНЫЕ</span>
                                                 <span class="menu__list--item-price">250р</span>
                                                 <span class="menu__list--item-gram">200г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                            <span class="menu__list--item-word">ПЕЛЬМЕНИ ВАРЕНЫЕ</span>
+                                            <span class="menu__list--item-word" data-item="openModal" data-id="second-hot-dishes-16">ПЕЛЬМЕНИ ВАРЕНЫЕ</span>
                                                 <span class="menu__list--item-price">230р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                            <span class="menu__list--item-word">ПЛОВ ПРАЗДНИЧНЫЙ</span>
+                                            <span class="menu__list--item-word" data-item="openModal" data-id="second-hot-dishes-17">ПЛОВ ПРАЗДНИЧНЫЙ</span>
                                                 <span class="menu__list--item-price">250р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
@@ -704,43 +704,43 @@ function printPostValue($item){
                                         <ul class="menu__list">
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">КАРТОФЕЛЬ МОЛОДОЙ С РОЗМАРИНОМ И ЧЕСНОКОМ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="side-dishes-1">КАРТОФЕЛЬ МОЛОДОЙ С РОЗМАРИНОМ И ЧЕСНОКОМ</span>
                                                 <span class="menu__list--item-price">200р</span>
                                                 <span class="menu__list--item-gram">150г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">КАРТОФЕЛЬ ПО - ДЕРЕВЕНСКИ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="side-dishes-2">КАРТОФЕЛЬ ПО - ДЕРЕВЕНСКИ</span>
                                                 <span class="menu__list--item-price">160р</span>
                                                 <span class="menu__list--item-gram">150г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">КАРТОФЕЛЬ ФРИ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="side-dishes-3">КАРТОФЕЛЬ ФРИ</span>
                                                 <span class="menu__list--item-price">150р</span>
                                                 <span class="menu__list--item-gram">150г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">КАРТОФЕЛЬ ЖАРЕНЫЙ С ГРИБАМИ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="side-dishes-4">КАРТОФЕЛЬ ЖАРЕНЫЙ С ГРИБАМИ</span>
                                                 <span class="menu__list--item-price">210р</span>
                                                 <span class="menu__list--item-gram">220г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ОВОЩИ ГРИЛЬ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="side-dishes-5">ОВОЩИ ГРИЛЬ</span>
                                                 <span class="menu__list--item-price">180р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">РИС МИКС</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="side-dishes-6">РИС МИКС</span>
                                                 <span class="menu__list--item-price">150р</span>
                                                 <span class="menu__list--item-gram">150г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">КАРТОФЕЛЬНОЕ ПЮРЕ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="side-dishes-7">КАРТОФЕЛЬНОЕ ПЮРЕ</span>
                                                 <span class="menu__list--item-price">100р</span>
                                                 <span class="menu__list--item-gram">150г</span>
                                             </li>
@@ -756,73 +756,73 @@ function printPostValue($item){
                                         <ul class="menu__list">
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ТАР - ТАР</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="sauces-1">ТАР - ТАР</span>
                                                 <span class="menu__list--item-price">70р</span>
                                                 <span class="menu__list--item-gram">50г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">REDHOT</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="sauces-2">REDHOT</span>
                                                 <span class="menu__list--item-price">70р</span>
                                                 <span class="menu__list--item-gram">50г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЧЕСНОЧНЫЙ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="sauces-3">ЧЕСНОЧНЫЙ</span>
                                                 <span class="menu__list--item-price">60р</span>
                                                 <span class="menu__list--item-gram">50г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">КЕТЧУП ХАЙНЦ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="sauces-4">КЕТЧУП ХАЙНЦ</span>
                                                 <span class="menu__list--item-price">60р</span>
                                                 <span class="menu__list--item-gram">50г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">НАРШАРАБ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="sauces-5">НАРШАРАБ</span>
                                                 <span class="menu__list--item-price">70р</span>
                                                 <span class="menu__list--item-gram">50г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ГОРЧИЦА ДИЖОНСКАЯ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="sauces-6">ГОРЧИЦА ДИЖОНСКАЯ</span>
                                                 <span class="menu__list--item-price">70р</span>
                                                 <span class="menu__list--item-gram">50г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">АДЖИКА</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="sauces-7">АДЖИКА</span>
                                                 <span class="menu__list--item-price">60р</span>
                                                 <span class="menu__list--item-gram">50г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">BBQ СОУС</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="sauces-8">BBQ СОУС</span>
                                                 <span class="menu__list--item-price">60р</span>
                                                 <span class="menu__list--item-gram">50г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">КОКТЕЙЛЬ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="sauces-9">КОКТЕЙЛЬ</span>
                                                 <span class="menu__list--item-price">60р</span>
                                                 <span class="menu__list--item-gram">50г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ТКЕМАЛИ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="sauces-10">ТКЕМАЛИ</span>
                                                 <span class="menu__list--item-price">70р</span>
                                                 <span class="menu__list--item-gram">50г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ХРЕН СЛИВОЧНЫЙ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="sauces-11">ХРЕН СЛИВОЧНЫЙ</span>
                                                 <span class="menu__list--item-price">70р</span>
                                                 <span class="menu__list--item-gram">50г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">СМЕТАНА</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="sauces-12">СМЕТАНА</span>
                                                 <span class="menu__list--item-price">60р</span>
                                                 <span class="menu__list--item-gram">50г</span>
                                             </li>
@@ -838,7 +838,7 @@ function printPostValue($item){
                                         <ul class="menu__list">
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЛЕПЁШКА</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="bread">ЛЕПЁШКА</span>
                                                 <span class="menu__list--item-price">50р</span>
                                                 <span class="menu__list--item-gram">300г</span>
                                             </li>
@@ -855,25 +855,25 @@ function printPostValue($item){
                                         <ul class="menu__list">
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">АНГЛИЙСКИЙ КЛАССИЧЕСКИЙ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="real-leaf-tea-1">АНГЛИЙСКИЙ КЛАССИЧЕСКИЙ</span>
                                                 <span class="menu__list--item-price">170 / 220 р</span>
                                                 <span class="menu__list--item-gram">500 / 800 мл.</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">АССАМ №17</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="real-leaf-tea-2">АССАМ №17</span>
                                                 <span class="menu__list--item-price">170 / 220 р</span>
                                                 <span class="menu__list--item-gram">500 / 800 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЛАПСАНГ СУШОНГ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="real-leaf-tea-3">ЛАПСАНГ СУШОНГ</span>
                                                 <span class="menu__list--item-price">170 / 220 р</span>
                                                 <span class="menu__list--item-gram">500 / 800 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЧАЙ С ЧАБРЕЦОМ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="real-leaf-tea-4">ЧАЙ С ЧАБРЕЦОМ</span>
                                                 <span class="menu__list--item-price">170 / 220 р</span>
                                                 <span class="menu__list--item-gram">500 / 800 мл</span>
                                             </li>
@@ -884,13 +884,13 @@ function printPostValue($item){
                                         <ul class="menu__list">
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЭРА ГРЕЙ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="flavored-tea-1">ЭРА ГРЕЙ</span>
                                                 <span class="menu__list--item-price">170 / 220 р</span>
                                                 <span class="menu__list--item-gram">500 / 800 мл.</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЧАЙ С ШИПОВНИКОМ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="flavored-tea-2">ЧАЙ С ШИПОВНИКОМ</span>
                                                 <span class="menu__list--item-price">170 / 220 р</span>
                                                 <span class="menu__list--item-gram">500 / 800 мл</span>
                                             </li>
@@ -901,13 +901,13 @@ function printPostValue($item){
                                         <ul class="menu__list">
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">КОРОЛЕВСКИЙ ГИБИСКУС</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="herbal-mixtures-1">КОРОЛЕВСКИЙ ГИБИСКУС</span>
                                                 <span class="menu__list--item-price">170 / 220 р</span>
                                                 <span class="menu__list--item-gram">500 / 800 мл.</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЗАРЯД БОДРОСТИ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="herbal-mixtures-2">ЗАРЯД БОДРОСТИ</span>
                                                 <span class="menu__list--item-price">170 / 220 р</span>
                                                 <span class="menu__list--item-gram">500 / 800 мл</span>
                                             </li>
@@ -955,13 +955,13 @@ function printPostValue($item){
                                         <ul class="menu__list">
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЗЕЛЕНЫЙ ЖЕМЧУГ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="green-tea-1">ЗЕЛЕНЫЙ ЖЕМЧУГ</span>
                                                 <span class="menu__list--item-price">170 / 220р</span>
                                                 <span class="menu__list--item-gram">500 / 800 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЗЕЛЕНЫЙ ПОРОХ СЕН - ЧА</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="green-tea-2">ЗЕЛЕНЫЙ ПОРОХ СЕН - ЧА</span>
                                                 <span class="menu__list--item-price">170 / 220р</span>
                                                 <span class="menu__list--item-gram">500 / 800 мл</span>
                                             </li>
@@ -973,25 +973,25 @@ function printPostValue($item){
                                         <ul class="menu__list">
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЗЕЛЕНЫЙ ГРАФ ГРЕЙ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="flavored-green-tea-1">ЗЕЛЕНЫЙ ГРАФ ГРЕЙ</span>
                                                 <span class="menu__list--item-price">170 / 220р</span>
                                                 <span class="menu__list--item-gram">500 / 800 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЗЕЛЕНЫЙ ЗЕЛЕНЫЙ КЛУБНИЧНЫЙ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="flavored-green-tea-2">ЗЕЛЕНЫЙ ЗЕЛЕНЫЙ КЛУБНИЧНЫЙ</span>
                                                 <span class="menu__list--item-price">170 / 220р</span>
                                                 <span class="menu__list--item-gram">500 / 800 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЯПОНСКАЯ ЛИПА</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="flavored-green-tea-3">ЯПОНСКАЯ ЛИПА</span>
                                                 <span class="menu__list--item-price">170 / 220р</span>
                                                 <span class="menu__list--item-gram">500 / 800 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЯПОНСКАЯ САКУРА</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="flavored-green-tea-4">ЯПОНСКАЯ САКУРА</span>
                                                 <span class="menu__list--item-price">170 / 220р</span>
                                                 <span class="menu__list--item-gram">500 / 800 мл</span>
                                             </li>
@@ -1003,13 +1003,13 @@ function printPostValue($item){
                                         <ul class="menu__list">
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">МАТЭ ЛИМОННЫЙ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="paraguayan-mate-tea-1">МАТЭ ЛИМОННЫЙ</span>
                                                 <span class="menu__list--item-price">170 / 220 р</span>
                                                 <span class="menu__list--item-gram">500 / 800 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">МАТЭ "СИЦИЛИАНО"</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="paraguayan-mate-tea-2">МАТЭ "СИЦИЛИАНО"</span>
                                                 <span class="menu__list--item-price">170 / 220 р</span>
                                                 <span class="menu__list--item-gram">500 / 800 мл</span>
                                             </li>
@@ -1021,19 +1021,19 @@ function printPostValue($item){
                                         <ul class="menu__list">
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ФРУКТОВЫЙ ЧАЙ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="fruit-mix-1">ФРУКТОВЫЙ ЧАЙ</span>
                                                 <span class="menu__list--item-price">170 / 220 р</span>
                                                 <span class="menu__list--item-gram">500 / 800 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ВАРЕНЬЕ В АССОРТИМЕНТЕ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="fruit-mix-2">ВАРЕНЬЕ В АССОРТИМЕНТЕ</span>
                                                 <span class="menu__list--item-price">160р</span>
                                                 <span class="menu__list--item-gram">100г</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">МЕД</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="fruit-mix-3">МЕД</span>
                                                 <span class="menu__list--item-price">70р</span>
                                                 <span class="menu__list--item-gram">100г</span>
                                             </li>
@@ -1049,67 +1049,67 @@ function printPostValue($item){
                                         <ul class="menu__list">
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЭСПРЕССО</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="coffe-1">ЭСПРЕССО</span>
                                                 <span class="menu__list--item-price">110р</span>
                                                 <span class="menu__list--item-gram">60 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЭСПРЕССО ДВОЙНОЙ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="coffe-2">ЭСПРЕССО ДВОЙНОЙ</span>
                                                 <span class="menu__list--item-price">110р</span>
                                                 <span class="menu__list--item-gram">60 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">АМЕРИКАНО</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="coffe-3">АМЕРИКАНО</span>
                                                 <span class="menu__list--item-price">110р</span>
                                                 <span class="menu__list--item-gram">150 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">КОФЕ СО СЛИВКАМИ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="coffe-4">КОФЕ СО СЛИВКАМИ</span>
                                                 <span class="menu__list--item-price">110р</span>
                                                 <span class="menu__list--item-gram">150 / 40 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">КОФЕ ПО - ВЕНСКИ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="coffe-5">КОФЕ ПО - ВЕНСКИ</span>
                                                 <span class="menu__list--item-price">110р</span>
                                                 <span class="menu__list--item-gram">150 / 35 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">КОФЕ ГЛЯССЕ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="coffe-6">КОФЕ ГЛЯССЕ</span>
                                                 <span class="menu__list--item-price">110р</span>
                                                 <span class="menu__list--item-gram">150 / 50 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">КАПУЧИНО</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="coffe-7">КАПУЧИНО</span>
                                                 <span class="menu__list--item-price">110р</span>
                                                 <span class="menu__list--item-gram">180 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ИРЛАНДСКИЙ КОФЕ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="coffe-8">ИРЛАНДСКИЙ КОФЕ</span>
                                                 <span class="menu__list--item-price">110р</span>
                                                 <span class="menu__list--item-gram">180 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЛАТТЕ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="coffe-9">ЛАТТЕ</span>
                                                 <span class="menu__list--item-price">110р</span>
                                                 <span class="menu__list--item-gram">200 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">МОЛОКО</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="coffe-10">МОЛОКО</span>
                                                 <span class="menu__list--item-price">110р</span>
                                                 <span class="menu__list--item-gram">40 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">СЛИВКИ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="coffe-11">СЛИВКИ</span>
                                                 <span class="menu__list--item-price">110р</span>
                                                 <span class="menu__list--item-gram">40 мл</span>
                                             </li>
@@ -1125,13 +1125,13 @@ function printPostValue($item){
                                         <ul class="menu__list">
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">СЛИВОЧНЫЙ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="milk-cocktails-1">СЛИВОЧНЫЙ</span>
                                                 <span class="menu__list--item-price">200р</span>
                                                 <span class="menu__list--item-gram">190 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ДЕСЕРТНЫЙ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="milk-cocktails-2">ДЕСЕРТНЫЙ</span>
                                                 <span class="menu__list--item-price">250р</span>
                                                 <span class="menu__list--item-gram">190 мл</span>
                                             </li>
@@ -1147,61 +1147,61 @@ function printPostValue($item){
                                         <ul class="menu__list">
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">GASTEINER</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="water-1">GASTEINER</span>
                                                 <span class="menu__list--item-price">160р</span>
                                                 <span class="menu__list--item-gram">250 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">БОН АКВА</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="water-2">БОН АКВА</span>
                                                 <span class="menu__list--item-price">120р</span>
                                                 <span class="menu__list--item-gram">250 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">НОВОТЕРСКАЯ ЦЕЛЕБНАЯ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="water-3">НОВОТЕРСКАЯ ЦЕЛЕБНАЯ</span>
                                                 <span class="menu__list--item-price">130р</span>
                                                 <span class="menu__list--item-gram">330 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЕССЕНТУКИ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="water-4">ЕССЕНТУКИ</span>
                                                 <span class="menu__list--item-price">140р</span>
                                                 <span class="menu__list--item-gram">500 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">НАГУТСКАЯ 26</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="water-5">НАГУТСКАЯ 26</span>
                                                 <span class="menu__list--item-price">130р</span>
                                                 <span class="menu__list--item-gram">500 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ПЕРЬЕ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="water-6">ПЕРЬЕ</span>
                                                 <span class="menu__list--item-price">140р</span>
                                                 <span class="menu__list--item-gram">330 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">КОЛА - КОЛА</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="water-7">КОЛА - КОЛА</span>
                                                 <span class="menu__list--item-price">120р</span>
                                                 <span class="menu__list--item-gram">250 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">СПРАЙТ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="water-8">СПРАЙТ</span>
                                                 <span class="menu__list--item-price">120р</span>
                                                 <span class="menu__list--item-gram">250 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ФАНТА</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="water-9">ФАНТА</span>
                                                 <span class="menu__list--item-price">120р</span>
                                                 <span class="menu__list--item-gram">250 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">BURN</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="water-10">BURN</span>
                                                 <span class="menu__list--item-price">150р</span>
                                                 <span class="menu__list--item-gram">250 мл</span>
                                             </li>
@@ -1217,7 +1217,7 @@ function printPostValue($item){
                                         <ul class="menu__list">
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">СОКИ "ДОБРЫЙ" В АССОРТИМЕНТЕ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="juices">СОКИ "ДОБРЫЙ" В АССОРТИМЕНТЕ</span>
                                                 <span class="menu__list--item-price">80р</span>
                                                 <span class="menu__list--item-gram">200 мл</span>
                                             </li>
@@ -1233,25 +1233,25 @@ function printPostValue($item){
                                         <ul class="menu__list">
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">АПЕЛЬСИНОВЫЙ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="fresh-juices-1">АПЕЛЬСИНОВЫЙ</span>
                                                 <span class="menu__list--item-price">200р</span>
                                                 <span class="menu__list--item-gram">250 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ГРЕЙПФРУТОВЫЙ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="fresh-juices-2">ГРЕЙПФРУТОВЫЙ</span>
                                                 <span class="menu__list--item-price">200р</span>
                                                 <span class="menu__list--item-gram">250 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЯБЛОЧНЫЙ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="fresh-juices-3">ЯБЛОЧНЫЙ</span>
                                                 <span class="menu__list--item-price">200р</span>
                                                 <span class="menu__list--item-gram">250 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">МОРКОВНЫЙ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="fresh-juices-4">МОРКОВНЫЙ</span>
                                                 <span class="menu__list--item-price">200р</span>
                                                 <span class="menu__list--item-gram">250 мл</span>
                                             </li>
@@ -1267,7 +1267,7 @@ function printPostValue($item){
                                         <ul class="menu__list">
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ИЗ ЧЕРНОЙ СМОРОДИНЫ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="fruit-drink">ИЗ ЧЕРНОЙ СМОРОДИНЫ</span>
                                                 <span class="menu__list--item-price">80р</span>
                                                 <span class="menu__list--item-gram">200 мл</span>
                                             </li>
@@ -1283,55 +1283,55 @@ function printPostValue($item){
                                         <ul class="menu__list">
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ДВОРЕЦ ШИРЛИ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="non-alcoholic-cocktails-1">ДВОРЕЦ ШИРЛИ</span>
                                                 <span class="menu__list--item-price">250р</span>
                                                 <span class="menu__list--item-gram">300 мл</span>
                                             </li>
                                             
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">КАБРИОЛЕТ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="non-alcoholic-cocktails-2">КАБРИОЛЕТ</span>
                                                 <span class="menu__list--item-price">200р</span>
                                                 <span class="menu__list--item-gram">200 мл</span>
                                             </li>
                                             
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">МЯТНЫЙ АНАНАСОВЫЙ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="non-alcoholic-cocktails-3">МЯТНЫЙ АНАНАСОВЫЙ</span>
                                                 <span class="menu__list--item-price">180р</span>
                                                 <span class="menu__list--item-gram">170 мл</span>
                                             </li>
                                             
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">МОХИТО</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="non-alcoholic-cocktails-4">МОХИТО</span>
                                                 <span class="menu__list--item-price">280р</span>
                                                 <span class="menu__list--item-gram">200 мл</span>
                                             </li>
                                             
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">РОЗОВАЯ ДЮНА</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="non-alcoholic-cocktails-5">РОЗОВАЯ ДЮНА</span>
                                                 <span class="menu__list--item-price">180р</span>
                                                 <span class="menu__list--item-gram">200 мл</span>
                                             </li>
                                             
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">СЛАДКАЯ РАДУГА</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="non-alcoholic-cocktails-6">СЛАДКАЯ РАДУГА</span>
                                                 <span class="menu__list--item-price">180р</span>
                                                 <span class="menu__list--item-gram">180 мл</span>
                                             </li>
                                             
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">МОТОР АВТОМОБИЛЯ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="non-alcoholic-cocktails-7">МОТОР АВТОМОБИЛЯ</span>
                                                 <span class="menu__list--item-price">250р</span>
                                                 <span class="menu__list--item-gram">300 мл</span>
                                             </li>
                                             
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">ЗВОН КОЛОКОЛА</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="non-alcoholic-cocktails-8">ЗВОН КОЛОКОЛА</span>
                                                 <span class="menu__list--item-price">250р</span>
                                                 <span class="menu__list--item-gram">400 мл</span>
                                             </li>
 
                                             <li class="menu__list--item">
-                                                <span class="menu__list--item-word">КИСКИНЫ ЛАПКИ</span>
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="non-alcoholic-cocktails-9">КИСКИНЫ ЛАПКИ</span>
                                                 <span class="menu__list--item-price">180р</span>
                                                 <span class="menu__list--item-gram">230 мл</span>
                                             </li>

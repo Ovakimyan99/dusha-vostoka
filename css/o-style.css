@@ -1,4 +1,13 @@
 /* font-family: 'Exo 2', sans-serif; */
+@font-face {
+    font-family: "ArabskijRegular";
+    src: url("../fonts/ArabskijRegular/ArabskijRegular.eot");
+    src: url("../fonts/ArabskijRegular/ArabskijRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArabskijRegular/ArabskijRegular.woff") format("woff"),
+    url("../fonts/ArabskijRegular/ArabskijRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 *{
 box-sizing: border-box;
 }
@@ -262,7 +271,7 @@ margin: 0;
 @media (min-width:680px){
 
 .heading-title{
-font-size: 27px;
+font-size: 32px;
 }
 
 }
@@ -280,7 +289,7 @@ padding: 0;
 
 .heading-title{
 margin: 0 0 15px 0;
-font-size: 24px;
+font-size: 35px;
 }
 
 .content-index{
@@ -309,7 +318,7 @@ justify-content: center;
 align-items: center;
 
 color: #fff;
-font-family: 'Lobster Two', cursive;
+font-family: ArabskijRegular;
 font-weight: 700;
 background-attachment: fixed;
 background-repeat: no-repeat;
@@ -354,7 +363,7 @@ z-index: 2;
 
 .one-screen__wrapper-button-down span{
 display: block;
-font-size: 25px;
+font-size: 30px;
 margin-bottom: 60px;
 }
 
@@ -374,7 +383,7 @@ display: block;
 
     .one-screen__wrapper-button-down span{
         margin-bottom: 50px;
-        font-size: 27px;
+        font-size: 40px;
     }
 
 }
@@ -387,7 +396,7 @@ display: block;
 }
 
 .one-screen__wrapper-button-down span{
-    font-size: 35px;
+    font-size: 45px;
     margin-bottom: 75px;
 }
 
@@ -473,8 +482,6 @@ position: absolute;
 position: absolute;
 text-align: center;
 
-
-
 background-color: #361718;
 color: #fff;
 z-index: 3;
@@ -483,6 +490,12 @@ bottom: 100%;
 height: calc(100% - 4px);
 transition: all 0.7s ease-out;
 /*! width: calc(100% - 4px); */
+}
+
+.image-description__text{
+    padding: 0 10px;
+    font-size: 18px;
+    font-family: 'Exo 2', sans-serif;
 }
 
 @media (min-width:680px){
@@ -706,7 +719,7 @@ margin-top: 12px;
     }
 
     .menu-screen__title{
-        margin-bottom: 20px;
+        margin-bottom: 32px;
     }
 }
 
@@ -721,7 +734,7 @@ margin-top: 12px;
 
 .menu-screen__title{
     margin-bottom: 25px;
-    font-size: 21px;
+    font-size: 34px;
 }
 
 .menu-screen__subblock-header{
@@ -757,6 +770,7 @@ margin-bottom: 50px;
 
 .menu-screen__button span{
     margin-bottom: 0;
+    font-family: sans-serif;
 }
 
 .menu-screen__subblock{
@@ -765,7 +779,8 @@ margin-bottom: 50px;
 }    
 
 .second-page-button span{
-    margin-top: 16px;
+    margin-top: 19px;
+    font-family: sans-serif;
 }
 
 .second-page-button img{
@@ -1008,6 +1023,7 @@ margin: 20px 0;
 
 .events-elems-header__title{
     margin-top: 20px;
+    font-family: sans-serif;
 }
 }
 
@@ -1191,7 +1207,7 @@ margin-top: 20px;
 }
 
 .reviews-header__name{
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .reviews-wrapper__body{
@@ -1201,6 +1217,8 @@ margin-top: 20px;
 .reviews-wrapper__text{
     margin-top: 30px;
     box-shadow: #2b1011be 0 -80px 65px, 0 0 0 0, 0 0 0 0, 0 0 0 0;
+    font-family: sans-serif;
+    background: #2d1112;
 }
 
 }
@@ -1280,6 +1298,7 @@ margin-bottom: 0;
 .contacts-wrapper__points h3{
 
 margin: 0;
+font-size: 23px;
 }
 
 .contacts-wrapper__points span{
@@ -1288,6 +1307,7 @@ margin-top: 2px;
 display: block;
 font-size: 18px;
 padding-left: 0px;
+font-family: sans-serif;
 }
 
 .contacts-wrapper__points a{
@@ -1365,7 +1385,7 @@ width: 100%;
 
 display: block;
 color: #fff;
-font-size: 20px;
+font-size: 23px;
 font-weight: 700;
 margin-bottom: 10px;
 }
