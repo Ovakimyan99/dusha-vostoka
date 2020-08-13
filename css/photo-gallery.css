@@ -1,0 +1,114 @@
+.cap{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-shadow: 1px 2px 5px #000;
+    background-image: url(../img/gallery/12.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    position: relative;
+    font-family: 'ArabskijRegular';
+}
+
+.cap::after{
+    content: "";
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);
+    height: 40%;
+    width: 100%;
+    bottom: 0;
+}
+
+.cap::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(68, 35, 38, 0.57);
+    z-index: 1;
+}
+
+.main{
+    background-color: #361718;
+    padding: 10px 20px;
+}
+
+.gallery__header{
+    width: 100%;
+    line-height: 1;
+    text-align: center;
+    display: flex;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.gallery__header-item{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    width: 33%;
+    display: block;
+    font-size: 18px;
+    padding: 13px 0;
+    cursor: pointer;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.gallery__header-item.active{
+    border-bottom: 1px solid #d1ac7b;
+    z-index: 2;
+    position: relative;
+    color: #d1ac7b;
+}
+
+.gallery__slide--wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.gallery__slide--item{
+    max-width: 350px;
+    overflow: hidden;
+    border: 1px solid rgba(141, 137, 137, 0.815);
+    transition: background-color 0.7s ease-in;
+    margin-bottom: 20px;
+}
+
+.gallery__slide--item:nth-child(2 + 3n){
+    margin: 0 15px;
+}
+
+.gallery__slide--item:hover{
+    background-color: rgba(255, 255, 255, 0.781);
+}
+
+.gallery__slide--img{
+    width: calc(100% - 10px);
+    height: 100%;
+    margin: 5px 5px 1px 5px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.gallery__slide--video{
+    width: 48%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery__slide--video video{
+    width: 100%;
+}
+
+/* .gallery__slide--wrapper:nth-child(2), .gallery__slide--wrapper:last-child{
+    display: none;
+} */

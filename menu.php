@@ -79,7 +79,7 @@ function printPostValue($item){
                <li><a href="./index.php">Главная</a></li>
                <li>Меню</li>
                <li><a href="#">О кафе</a></li>
-               <li><a href="#">Фотогалерея</a></li>
+               <li><a href="./Photo-gallery.html">Фотогалерея</a></li>
                <li><a href="#">Отзывы</a></li>
                <li><a href="#">Контакты</a></li>
                <li><a href="#">Доставка</a></li>
@@ -104,7 +104,11 @@ function printPostValue($item){
             <ul class="mobile-nav__list">
 
                 <li class="mobile-nav__item">
-                    <a href="#" class="mobile-nav__link">Главная</a>
+                    <a href="./index.php" class="mobile-nav__link">Главная</a>
+                </li>
+
+                <li class="mobile-nav__item">
+                    <span class="mobile-nav__link">Меню</span>
                 </li>
                 
                 <li class="mobile-nav__item">
@@ -112,7 +116,7 @@ function printPostValue($item){
                 </li>
                 
                 <li class="mobile-nav__item">
-                    <a href="#" class="mobile-nav__link">Фотогалерея</a>
+                    <a href="./Photo-gallery.html" class="mobile-nav__link">Фотогалерея</a>
                 </li>
                 
                 <li class="mobile-nav__item">
