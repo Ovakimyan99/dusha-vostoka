@@ -1,10 +1,10 @@
 /* font-family: 'Exo 2', sans-serif; */
 @font-face {
     font-family: "ArabskijRegular";
-    src: url("../fonts/ArabskijRegular/ArabskijRegular.eot");
-    src: url("../fonts/ArabskijRegular/ArabskijRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/ArabskijRegular/ArabskijRegular.woff") format("woff"),
-    url("../fonts/ArabskijRegular/ArabskijRegular.ttf") format("truetype");
+    src: url("/fonts/ArabskijRegular/ArabskijRegular.eot");
+    src: url("/fonts/ArabskijRegular/ArabskijRegular.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/ArabskijRegular/ArabskijRegular.woff") format("woff"),
+    url("/fonts/ArabskijRegular/ArabskijRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
@@ -173,7 +173,7 @@ transition: 0.55s 0.5s;
 }
 }
 
-/* ------- Мобильная навигация -----*/
+/* ------- ÐœÐ¾Ð±Ð¸Ð»ÑŒÐ½Ð°Ñ Ð½Ð°Ð²Ð¸Ð³Ð°Ñ†Ð¸Ñ -----*/
 
 .mobile-nav{
 display: block;
@@ -212,9 +212,9 @@ font-size: 22px;
 color: #f6d142;
 }
 
-/* ---- конец мобильной навигации ------- */
+/* ---- ÐºÐ¾Ð½ÐµÑ† Ð¼Ð¾Ð±Ð¸Ð»ÑŒÐ½Ð¾Ð¹ Ð½Ð°Ð²Ð¸Ð³Ð°Ñ†Ð¸Ð¸ ------- */
 
-/*  -------- заголовки -------- */
+/*  -------- Ð·Ð°Ð³Ð¾Ð»Ð¾Ð²ÐºÐ¸ -------- */
 
 .heading{
 text-align: center;
@@ -223,15 +223,7 @@ margin: 40px 0 10px;
 position: relative;
 }
 
-.heading::after{
-content: "";
-width: 200px;
-height: 88px;
-background-image: url(../img/prescriptive-pictures/decor-w.png);
-background-repeat: no-repeat;
-display: block;
-margin: 0 auto;
-}
+.heading::after{content: "";width: 200px;height: 88px;background-image: url(/img/prescriptive-pictures/decor-w.png);background-repeat: no-repeat;display: block;margin: 0 auto;}
 
 .heading-title{
 display: block;
@@ -299,7 +291,7 @@ padding-bottom: 30px;
 
 }  
 
-/*  ---- конец меню ----*/
+/*  ---- ÐºÐ¾Ð½ÐµÑ† Ð¼ÐµÐ½ÑŽ ----*/
 
 /*
 font-family: 'Exo 2', sans-serif;
@@ -404,7 +396,7 @@ display: block;
 
 .about-the-cafe{
 background-color: #361718;
-background-image: url(../img/home/second-screen-background.jpg);
+background-image: url(/img/home/second-screen-background.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -538,7 +530,7 @@ transition: all 0.7s ease-out;
 
 
 .menu{
-background-image: url(../img/gallery/fruit-basket.jpg);
+background-image: url(/img/gallery/fruit-basket.jpg);
 padding-bottom: 30px;
 }
 
@@ -602,10 +594,6 @@ transition: all 0.2s ease-in;
 margin-bottom: 30px;
 }
 
-.menu-screen__subblock-wide{
-/* width: 440px; */
-}
-
 .menu-screen__subblock-elements:nth-child(2){
 margin-left: 0;
 }
@@ -629,6 +617,7 @@ z-index: 2;
 cursor: pointer;
 padding: 10px 30px;
 margin-bottom: 30px;
+text-decoration: none;
 }
 
 .menu-screen__button-fon{
@@ -803,7 +792,7 @@ margin-bottom: 50px;
 
 
 .events{
-background-image: url(../img/home/picture-with-fruit.jpg);
+background-image: url(/img/home/picture-with-fruit.jpg);
 }
 
 .events-elems-header{
@@ -979,9 +968,6 @@ border: 1px solid aquamarine;
 cursor: pointer;
 }
 
-.event-modal-footer__button-close{
-
-}
 
 .event-modal.open,
 .event-modal.open .event-modal-window{
@@ -1028,7 +1014,7 @@ margin: 20px 0;
 }
 
 
-/*-----слайдер------*/
+/*-----ÑÐ»Ð°Ð¹Ð´ÐµÑ€------*/
 .gallerySlider{
 padding: 10px 0;
 background: #361718;
@@ -1105,10 +1091,10 @@ height: 50px;
 }
 }
 
-/* конец слайдера */
+/* ÐºÐ¾Ð½ÐµÑ† ÑÐ»Ð°Ð¹Ð´ÐµÑ€Ð° */
 
 .reviews{
-background-image: url(../img/home/reviews.jpg);
+background-image: url(/img/home/reviews.jpg);
 flex-direction: column;
 }
 
@@ -1250,7 +1236,7 @@ margin-left: 0;
 }
 
 .contacts{
-background-image: url(../img/gallery/01.jpg);
+background-image: url(/img/gallery/01.jpg);
 }
 
 .contacts-wrapper{
@@ -1360,10 +1346,10 @@ margin-top: 15px;
 }
 }
 
-/* форма обратной связи */
+/* Ñ„Ð¾Ñ€Ð¼Ð° Ð¾Ð±Ñ€Ð°Ñ‚Ð½Ð¾Ð¹ ÑÐ²ÑÐ·Ð¸ */
 
 .feedback-form{
-background-image: url(../img/home/feedback-form.jpg);
+background-image: url(/img/home/feedback-form.jpg);
 }
 
 .form-wrapper{
@@ -1473,7 +1459,7 @@ height: 250px;
 }
 }
 
-/*спасибо*/
+/*ÑÐ¿Ð°ÑÐ¸Ð±Ð¾*/
 
 .title-success{
 color: #fff;

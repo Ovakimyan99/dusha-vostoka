@@ -65,7 +65,7 @@ function printPostValue($item){
 
     <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/header-menu.css">
-    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/menu/menu.css">
     <link rel="stylesheet" href="./libs/owlCarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="./libs/owlCarousel/owl.theme.default.min.css">
 </head>
@@ -260,6 +260,12 @@ function printPostValue($item){
                                             <li class="menu__list--item">
                                                 <span class="menu__list--item-word" data-item="openModal" data-id="salad-6">МЯСНОЙ</span>
                                                 <span class="menu__list--item-price">320р</span>
+                                                <span class="menu__list--item-gram">250г</span>
+                                            </li>
+
+                                            <li class="menu__list--item">
+                                                <span class="menu__list--item-word" data-item="openModal" data-id="salad-15">КАПРЕЗЕ С МОЦАРЕЛОЙ</span>
+                                                <span class="menu__list--item-price">300р</span>
                                                 <span class="menu__list--item-gram">250г</span>
                                             </li>
 
@@ -1435,7 +1441,7 @@ function printPostValue($item){
     <script src="./libs/owlCarousel/owl.carousel.min.js"></script>
 
     <script src="./js/header.js"></script>
-    <!-- <script src="./js/menu.js"></script> -->
+    <!-- <script src="./js/menu/menu.js"></script> -->
 
     <script>
         $(document).ready(function(){
@@ -1466,7 +1472,7 @@ function printPostValue($item){
     </script>
 
     <script src="./js/header-button.js"></script>
-    <script src="./js/menu-modal.js"></script>
+    <script src="./js/menu/menu-modal.js"></script>
 
 </body>
 </html>

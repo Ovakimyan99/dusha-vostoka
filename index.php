@@ -67,7 +67,7 @@ function printPostValue($item){
 	<!-- <meta name="keywords" content="ключевое слово 1, ключевое слово 2, ключевое слово 3"/> -->
     <title>Душа востока</title>
 
-    <link rel="stylesheet" href="./css/o-style.css">
+    <link rel="stylesheet" href="./css/index/o-style.css">
     <!-- шрифты Lobster+Two и Exo+2 -->
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400&family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./libs/owlCarousel/owl.carousel.min.css">
@@ -252,7 +252,7 @@ function printPostValue($item){
                         <div class="menu-screen__subblock-elements">
 
                             <img  class="menu-screen__button-fon" src="" alt="">
-                            <a class="menu-screen__button wow animate__animated animate__rubberBand" src="#">
+                            <a class="menu-screen__button wow animate__animated animate__rubberBand" href="./menu.php">
                                 <img class="menu-screen__icons" src="./img/home/soup.png" alt="" title="">
                                 <span>ПЕРВОЕ</span>
                             </a>
@@ -262,7 +262,7 @@ function printPostValue($item){
                         <div class="menu-screen__subblock-elements">
 
                             <img  class="menu-screen__button-fon" src="" alt="">
-                            <a src="#" class="menu-screen__button wow animate__animated animate__rubberBand">
+                            <a class="menu-screen__button wow animate__animated animate__rubberBand" href="./menu.php">
                                 <img class="menu-screen__icons" src="./img/home/rice.png" alt="" title="">
                                 <span>ВТОРОЕ</span>
                             </a>
@@ -279,7 +279,7 @@ function printPostValue($item){
                         <div class="menu-screen__subblock-elements menu-screen__subblock-wide">
 
                             <img  class="menu-screen__button-fon" src="./img/home/on-coals.png" alt="">
-                            <a class="menu-screen__button wow animate__animated animate__rubberBand" src="#">
+                            <a class="menu-screen__button wow animate__animated animate__rubberBand" href="./menu.php">
                                 <img class="menu-screen__icons" src="./img/home/cooker.png" alt="" title="">
                                 <span>НА УГЛЯХ</span>
                             </a>
@@ -299,7 +299,7 @@ function printPostValue($item){
                         <div class="menu-screen__subblock-elements menu-screen__subblock-wide">
 
                             <img  class="menu-screen__button-fon" src="" alt="">
-                            <a class="menu-screen__button wow animate__animated animate__rubberBand" src="#">
+                            <a class="menu-screen__button wow animate__animated animate__rubberBand" href="./menu.php">
                                 <img class="menu-screen__icons" src="./img/home/salad.png" alt="" title="">
                                 <span>САЛАТЫ</span>
                             </a>
@@ -316,7 +316,7 @@ function printPostValue($item){
                         <div class="menu-screen__subblock-elements">
 
                             <img  class="menu-screen__button-fon" src="" alt="">
-                            <a class="menu-screen__button wow animate__animated animate__rubberBand" src="#">
+                            <a class="menu-screen__button wow animate__animated animate__rubberBand" href="./menu.php">
                                 <img class="menu-screen__icons" src="./img/home/snack.png" alt="" title="">
                                 <span>ХОЛОДНЫЕ</span>
                             </a>
@@ -326,7 +326,7 @@ function printPostValue($item){
                         <div class="menu-screen__subblock-elements">
 
                             <img  class="menu-screen__button-fon" src="" alt="">
-                            <a src="#" class="menu-screen__button wow animate__animated animate__rubberBand">
+                            <a class="menu-screen__button wow animate__animated animate__rubberBand" href="./menu.php">
                                 <img class="menu-screen__icons" src="./img/home/appetizer.png" alt="" title="">
                                 <span>ГОРЯЧИЕ</span>
                             </a>
@@ -359,49 +359,6 @@ function printPostValue($item){
             </div>
 
             <div class="events-wrapper" id="events-wrapper">
-
-                <!-- <div class="events-elems-header" id="events-elems-header-first">
-                    <div class="events-elems">
-                        <div class="events-image-block">
-                            <img src="./img/news/zaglushka.png" alt="описани" title="" class="events-image" data-btn="card" data-id="events-elems-header-first">
-                        </div>
-
-                        <div class="events-text-block">
-                            
-                            <a href="#">ПЕРЕЙТИ К СОБЫТИЮ</a>
-                        </div>
-                    </div>
-                    <a href="#" class="events-elems-header__title">Событие 1</a>
-                </div>
-
-                <div class="events-elems-header" id="events-elems-header-second">
-                    <div class="events-elems">
-                        <div class="events-image-block">
-                            <img src="./img/news/zaglushka.png" alt="описани" title="" class="events-image" data-btn="card" data-id="events-elems-header-second">
-                        </div>
-
-                        <div class="events-text-block">
-                            
-                            <a href="#">ПЕРЕЙТИ К СОБЫТИЮ</a>
-                        </div>
-                    </div>
-                    <a href="#" class="events-elems-header__title">Событие 2</a>
-                </div>
-
-                <div class="events-elems-header" id="events-elems-header-third">
-                    <div class="events-elems">
-                        <div class="events-image-block">
-                            <img src="./img/news/zaglushka.png" alt="описани" title="" class="events-image" data-btn="card" data-id="events-elems-header-third">
-                        </div>
-
-                        <div class="events-text-block">
-                            
-                            <a href="#">ПЕРЕЙТИ К СОБЫТИЮ</a>
-                        </div>
-                    </div>
-                    <a href="#" class="events-elems-header__title">Событие 3</a>
-                </div> -->
-
             </div>
 
         </div>
@@ -806,17 +763,17 @@ function printPostValue($item){
     <!-- <footer class="footer">
 
     </footer> -->
-    <script src="./js/o-index.js"></script>
+    <!-- <script src="./js/o-index.js"></script> -->
 
-    <!-- <script src="./libs/jquery-3.5.1.min.js"></script> -->
-    <!-- <script src="./libs/jquery.malihu.PageScroll2id.min.js"></script> -->
-    <!-- <script src="./libs/jquery.vide.min.js"></script> -->
-    <!-- <script src="./js/wow.min.js"></script> -->
-    <!-- <script src="./libs/owlCarousel/owl.carousel.min.js"></script> -->
+    <script src="./libs/jquery-3.5.1.min.js"></script>
+    <script src="./libs/jquery.malihu.PageScroll2id.min.js"></script>
+    <script src="./libs/jquery.vide.min.js"></script>
+    <script src="./libs/wow/wow.min.jsA"></script>
+    <script src="./libs/owlCarousel/owl.carousel.min.js"></script>
 
-    <!-- <script src="./js/header.js"></script> -->
-    <!-- <script src="./js/main.js"></script> -->
-    <!-- <script>
+    <script src="./js/header.js"></script>
+    <script src="./js/index/main.js"></script>
+    <script>
         $(document).ready(function(){
 
             //первая карусель с галереей
@@ -878,15 +835,15 @@ function printPostValue($item){
             });
 
         });
-    </script> -->
+    </script>
 
-    <!-- <script src="./js/general-modal.js"></script> -->
-    <!-- <script src="./js/base.js"></script> -->
-    <!-- <script src="./js/modal.js"></script> -->
-    <!-- <script src="./js/index.js"></script> -->
+    <script src="./js/index/general-modal.js"></script>
+    <!-- <script src="./js/index/base.js"></script> -->
+    <!-- <script src="./js/index/modal.js"></script> -->
+    <!-- <script src="./js/index/index.js"></script> -->
     
-    <!-- <script>new WOW().init();</script> -->
-    <!-- <script src="./js/header-button.js"></script> -->
+    <script>new WOW().init();</script>
+    <script src="./js/header-button.js"></script>
 
 </body>
 </html>

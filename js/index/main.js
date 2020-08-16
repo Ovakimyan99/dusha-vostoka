@@ -3,7 +3,7 @@ $(window).on("load",function(){
     $("a[rel='m_PageScroll2id']").mPageScroll2id();
 
     //video background vide.js
-    $('.one-screen').vide('../img/gallery/video/home.mp4', {
+    $('.one-screen').vide('../video/home.mp4', {
         bgColor:'#000'
     });
 

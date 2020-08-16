@@ -14,7 +14,7 @@ h3, h4{
 }
 
 .menu .content-index:first-child{
-    background-image: url(../img/gallery/fruit-basket.jpg);
+    background-image: url(/img/gallery/fruit-basket.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -111,7 +111,7 @@ h3, h4{
 .menu__item--subblock-arrow-up{
   position: absolute;
   display: block;
-  background-image: url(../img/menu/arrow-up.png);
+  background-image: url(/img/menu/arrow-up.png);
   width: 50px;
   height: 45px;
   background-size: cover;
@@ -223,7 +223,7 @@ h3, h4{
     margin-left: 5px;
 }
 
-/* ---- полоса прокрутки ----*/
+/* ---- Ð¿Ð¾Ð»Ð¾ÑÐ° Ð¿Ñ€Ð¾ÐºÑ€ÑƒÑ‚ÐºÐ¸ ----*/
 ::-webkit-scrollbar { width: 3px; height: 3px;}
 ::-webkit-scrollbar-button {  background-color: #666; }
 ::-webkit-scrollbar-track {  background-color: #999;}
@@ -231,7 +231,7 @@ h3, h4{
 ::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
 ::-webkit-scrollbar-corner { background-color: #999;}
 ::-webkit-resizer { background-color: #666;}
-/* ---- конец полосы прокрутки ----*/
+/* ---- ÐºÐ¾Ð½ÐµÑ† Ð¿Ð¾Ð»Ð¾ÑÑ‹ Ð¿Ñ€Ð¾ÐºÑ€ÑƒÑ‚ÐºÐ¸ ----*/
 
 .customPrevBtn, .customNextBtn{
     background-color: #361718;
@@ -267,9 +267,6 @@ h3, h4{
         width: 500px;
     }
 
-    .menu__item--subblock{
-
-    }
 
 }
 
@@ -289,23 +286,11 @@ h3, h4{
         width: 550px;
     }
 
-    .menu__item--subblock{
-        
-    }
 }
 
-/* форма обратной связи */
+/* Ñ„Ð¾Ñ€Ð¼Ð° Ð¾Ð±Ñ€Ð°Ñ‚Ð½Ð¾Ð¹ ÑÐ²ÑÐ·Ð¸ */
 
-.feedback-form{
-background-image: url(../img/home/feedback-form.jpg);
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-background-color: #a65451;
-z-index: 11;
-position: relative;
-color: #fff;
-}
+.feedback-form{background-image: url(/img/home/feedback-form.jpg);background-size: cover;background-position: center;background-repeat: no-repeat;background-color: #a65451;z-index: 11;position: relative;color: #fff;}
 
 .form-wrapper{
 max-width: 600px;
@@ -477,7 +462,7 @@ height: 200px;
 }
 }
 
-/*спасибо*/
+/*ÑÐ¿Ð°ÑÐ¸Ð±Ð¾*/
 
 .title-success{
 color: #fff;
@@ -503,7 +488,7 @@ font-size: 20px;
 cursor: pointer;
 }
 
-/* --- модалка ---*/
+/* --- Ð¼Ð¾Ð´Ð°Ð»ÐºÐ° ---*/
 .event-modal-overlay{
 position: absolute;
 left: 0;

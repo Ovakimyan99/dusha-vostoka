@@ -1,10 +1,10 @@
 /* font-family: 'Exo 2', sans-serif; */
 @font-face {
   font-family: "ArabskijRegular";
-  src: url("../fonts/ArabskijRegular/ArabskijRegular.eot");
-  src: url("../fonts/ArabskijRegular/ArabskijRegular.eot?#iefix")format("embedded-opentype"),
-  url("../fonts/ArabskijRegular/ArabskijRegular.woff") format("woff"),
-  url("../fonts/ArabskijRegular/ArabskijRegular.ttf") format("truetype");
+  src: url("/fonts/ArabskijRegular/ArabskijRegular.eot");
+  src: url("/fonts/ArabskijRegular/ArabskijRegular.eot?#iefix")format("embedded-opentype"),
+  url("/fonts/ArabskijRegular/ArabskijRegular.woff") format("woff"),
+  url("/fonts/ArabskijRegular/ArabskijRegular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
@@ -227,7 +227,7 @@ position: relative;
 content: "";
 width: 200px;
 height: 88px;
-background-image: url(../img/prescriptive-pictures/decor-w.png);
+background-image: url(/img/prescriptive-pictures/decor-w.png);
 background-repeat: no-repeat;
 display: block;
 margin: 0 auto;
@@ -237,6 +237,7 @@ margin: 0 auto;
 display: block;
 font-size: 25px;
 margin-bottom: 10px;
+font-family: "ArabskijRegular";
 }
 
 .content-index{
